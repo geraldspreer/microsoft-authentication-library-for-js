@@ -1,8 +1,25 @@
 # Change Log - @azure/msal-common
 
-This log was last generated on Thu, 06 Jul 2023 00:01:34 GMT and should not be manually modified.
+This log was last generated on Wed, 02 Aug 2023 22:45:38 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 14.0.0-beta.2
+
+Wed, 02 Aug 2023 22:45:38 GMT
+
+### Changes
+
+- Disable telemetry parameters in the token request when using OIDC protocol mode (shylasummers@users.noreply.github.com)
+- Add exports to package.json and update type to module #6194 (thomas.norling@microsoft.com)
+- Catch errors thrown by "decodeURIComponent" #6226 (kshabelko@microsoft.com)
+- Add storeInCache request parameter to control which tokens are persisted to the cache (thomas.norling@microsoft.com)
+- Prioritize hardcoded metadata over network-sourced metadata #6231 (hemoral@microsoft.com)
+- Append v2 to endpoint when using a Microsoft authority under OIDC protocol mode (shylasummers@users.noreply.github.com)
+- Update "PerformanceClient" for better usability/extendibility #6270 (kshabelko@microsoft.com)
+- Simplify account generation #6271 (thomas.norling@microsoft.com)
+- Update comments to address Policheck rules (thomas.norling@microsoft.com)
+- Added OIDCOptions parameter to config (shylasummers@users.noreply.github.com)
 
 ## 14.0.0-beta.1
 

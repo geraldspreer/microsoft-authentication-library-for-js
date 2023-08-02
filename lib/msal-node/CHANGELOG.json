@@ -2,6 +2,65 @@
   "name": "@azure/msal-node",
   "entries": [
     {
+      "date": "Wed, 02 Aug 2023 22:45:39 GMT",
+      "tag": "@azure/msal-node_v2.0.0-beta.2",
+      "version": "2.0.0-beta.2",
+      "comments": {
+        "none": [
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "c34e759455a7cbb86cba943923cff34f5b942e28",
+            "comment": "Fix formatting #6264"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "88f49fb55daa60410bbbc126856bdb7d2189817a",
+            "comment": "Replace lerna with npm workspaces #6136"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "8c382b3b677bf9388154ab6c2863d6951905e91a",
+            "comment": "Update tests #6271"
+          }
+        ],
+        "prerelease": [
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "ab44706bcf8e5a281b70ac93a44c58420c07d16a",
+            "comment": "Add exports to package.json and update type to module #6194"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "d8b4b702d4bf4293a35bcf9a22b8c45210afb871",
+            "comment": "Omit new storeInCache request parameter from public API surface"
+          },
+          {
+            "author": "rginsburg@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "57f2241c66d5499938507d9954896b28c01455ba",
+            "comment": "ClientCredentials: Fixed bug where user-supplied cache is loaded into memory only after network request #6218"
+          },
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "4c99ad07b7ea40e1f2191173e58d80cec143c72d",
+            "comment": "Update \"PerformanceClient\" for better usability/extendibility #6270"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-node",
+            "comment": "Bump @azure/msal-common to v14.0.0-beta.2",
+            "commit": "2a169dc79b09ee661e85210073a6de1995e3b12a"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 06 Jul 2023 00:01:33 GMT",
       "tag": "@azure/msal-node_v2.0.0-beta.1",
       "version": "2.0.0-beta.1",

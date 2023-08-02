@@ -2,6 +2,89 @@
   "name": "@azure/msal-common",
   "entries": [
     {
+      "date": "Wed, 02 Aug 2023 22:45:38 GMT",
+      "tag": "@azure/msal-common_v14.0.0-beta.2",
+      "version": "14.0.0-beta.2",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "shylasummers@users.noreply.github.com",
+            "package": "@azure/msal-common",
+            "commit": "396f5b2ff4bfbd56a991e2b0b706c90e5f98fdec",
+            "comment": "Disable telemetry parameters in the token request when using OIDC protocol mode"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "ab44706bcf8e5a281b70ac93a44c58420c07d16a",
+            "comment": "Add exports to package.json and update type to module #6194"
+          },
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "251b39a3c8b41be81c3b078902a9239e4bee0a7e",
+            "comment": "Catch errors thrown by \"decodeURIComponent\" #6226"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "d8b4b702d4bf4293a35bcf9a22b8c45210afb871",
+            "comment": "Add storeInCache request parameter to control which tokens are persisted to the cache"
+          },
+          {
+            "author": "hemoral@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "024f979a535b793d47189de65366c49080095e55",
+            "comment": "Prioritize hardcoded metadata over network-sourced metadata #6231"
+          },
+          {
+            "author": "shylasummers@users.noreply.github.com",
+            "package": "@azure/msal-common",
+            "commit": "8cbd07c7100f0790220e84004138ba8a76c203d4",
+            "comment": "Append v2 to endpoint when using a Microsoft authority under OIDC protocol mode"
+          },
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "4c99ad07b7ea40e1f2191173e58d80cec143c72d",
+            "comment": "Update \"PerformanceClient\" for better usability/extendibility #6270"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "8c382b3b677bf9388154ab6c2863d6951905e91a",
+            "comment": "Simplify account generation #6271"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "fd7416e7318278ec465e8fbec657e4990b388ba2",
+            "comment": "Update comments to address Policheck rules"
+          },
+          {
+            "author": "shylasummers@users.noreply.github.com",
+            "package": "@azure/msal-common",
+            "commit": "c8e0f54ad7c6280ec6336759bbf04b5c64c121cd",
+            "comment": "Added OIDCOptions parameter to config"
+          }
+        ],
+        "none": [
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "c34e759455a7cbb86cba943923cff34f5b942e28",
+            "comment": "Fix formatting #6264"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "88f49fb55daa60410bbbc126856bdb7d2189817a",
+            "comment": "Replace lerna with npm workspaces #6136"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 06 Jul 2023 00:01:34 GMT",
       "tag": "@azure/msal-common_v14.0.0-beta.1",
       "version": "14.0.0-beta.1",

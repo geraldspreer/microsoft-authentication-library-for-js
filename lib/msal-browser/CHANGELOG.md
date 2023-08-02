@@ -1,8 +1,24 @@
 # Change Log - @azure/msal-browser
 
-This log was last generated on Thu, 06 Jul 2023 00:01:35 GMT and should not be manually modified.
+This log was last generated on Wed, 02 Aug 2023 22:45:38 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 3.0.0-beta.2
+
+Wed, 02 Aug 2023 22:45:38 GMT
+
+### Changes
+
+- Add hydrateCache API #6271 (thomas.norling@microsoft.com)
+- Add storeInCache request parameter to control which tokens are persisted to the cache (thomas.norling@microsoft.com)
+- Revert allowNativeBroker default to false #6280 (hemoral@microsoft.com)
+- Add exports to package.json and update type to module #6194 (thomas.norling@microsoft.com)
+- Added OIDCOptions parameter to config (shylasummers@users.noreply.github.com)
+- Expose `BrowserPerformanceClient` and `BrowserPerformanceMeasurement` artifacts as public #6273 (kshabelko@microsoft.com)
+- Throw when initialize has not been called #6233 (hemoral@microsoft.com)
+- Update "PerformanceClient" for better usability/extendibility #6270 (kshabelko@microsoft.com)
+- Bump @azure/msal-common to v14.0.0-beta.2
 
 ## 3.0.0-beta.1
 
